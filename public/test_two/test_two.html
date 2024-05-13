@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test2</title>
+    <link rel="stylesheet" type="text/css" href="/public/test_two/test_two_styles.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="/public/test_two/test_two_script.js"></script>
+
+</head>
+<body>
+    <div class="page_wrapper page_1">
+        <div class="title_wrapper">
+            <span>Цель художника другими словами(несколько вариантов)</span>
+        </div>
+        <div class="questions_wrapper">
+            <div class="question_item" id="1">Упростить восприятие</div>
+            <div class="question_item" id="2">Углубить картинку</div>
+            <div class="question_item" id="3">Насытить точками внимания</div>
+            <div class="question_item" id="4">Опираться на свое настроение</div>
+        </div>
+        <div class="next_button_wrapper">
+            <button class="next_question_button">Далее</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="page_wrapper page_2">
+        <div class="title_wrapper">
+            <span>Главный инструмент акцентности</span>
+        </div>
+        <div class="questions_wrapper">
+            <div class="question_item" id="5">Детализация</div>
+            <div class="question_item" id="6">Свет</div>
+            <div class="question_item" id="7">Дым</div>
+            <div class="question_item" id="8">Глубина резкости</div>
+        </div>
+        <div class="next_button_wrapper">
+            <button class="next_question_button">Далее</button>
+        </div>
+    </div>
+
+
+
+    <div class="page_wrapper page_3">
+        <div class="title_wrapper">
+            <span>Функция света(несколько вариантов)</span>
+        </div>
+        <div class="questions_wrapper">
+            <div class="question_item" id="9">Акценты</div>
+            <div class="question_item" id="10">Подчеркивание объёмности геометрии</div>
+            <div class="question_item" id="11">Дефицит пространства</div>
+            <div class="question_item" id="12">Глубина резкости</div>
+        </div>
+        <div class="next_button_wrapper">
+            <button class="next_question_button">Узнать результат</button>
+        </div>
+    </div>
+
+
+
+    <div class="page_wrapper success_page">
+        <div class="title_wrapper">
+            <span>Поздравляем, тест пройден успешно. Вы можете вернуться в бота</span>
+        </div>
+        <div class="questions_wrapper">
+            
+        </div>
+        <div class="next_button_wrapper">
+            <button class="next_question_button go_back_to_bot">Вернуться в Бота</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="page_wrapper fail_page">
+        <div class="title_wrapper fail_title">
+            <span>К сожалению, тест не сдан. Вы можете попробовать ещё раз!(тест можно пропустить после 3ёх попыток)</span>
+        </div>
+        <div class="questions_wrapper">
+            
+        </div>
+        <div class="next_button_wrapper">
+            <button class="next_question_button fail_button">Попробовать снова</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="page_wrapper fail_page_with_skip">
+        <div class="title_wrapper fail_title">
+            <span>К сожалению, тест не сдан. Вы можете попробовать ещё раз!(тест можно пропустить после 3ёх попыток)</span>
+        </div>
+        <div class="questions_wrapper">
+            
+        </div>
+        <div class="next_button_wrapper next_button_wrapper_with_skip">
+            <button class="next_question_button skip_test_button">Пропустить тест</button>
+            <button class="next_question_button fail_button">Попробовать снова</button>
+        </div>
+    </div>
+</body>
+</html>
